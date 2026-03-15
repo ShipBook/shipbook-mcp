@@ -2,7 +2,7 @@
   "name": "shipbook",
   "displayName": "Shipbook",
   "version": "1.0.0",
-  "description": "Connect Cursor to Shipbook's cloud logging platform. Search logs, investigate errors, and debug sessions via MCP.",
+  "description": "Connect Shipbook to Cursor to investigate issues using real application logs. Shipbook's Loglytics engine automatically classifies errors and provides structured insights, while powerful log search lets AI agents explore runtime events. Logs include rich context such as severity, user, device, session, and the exact file and code location where issues occur, allowing Cursor to trace failures and suggest fixes based on the ground truth of your system.",
   "author": {
     "name": "Shipbook",
     "email": "support@shipbook.io"

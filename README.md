@@ -1,8 +1,6 @@
 # Shipbook Plugin for Cursor
 
-Connect [Cursor](https://cursor.com) to [Shipbook](https://shipbook.io)'s cloud logging platform via MCP (Model Context Protocol).
-
-Search logs, investigate errors, and debug user sessions — all from within your IDE using AI.
+Connect [Shipbook](https://shipbook.io) to [Cursor](https://cursor.com) to investigate issues using real application logs. Shipbook's Loglytics engine automatically classifies errors and provides structured insights, while powerful log search lets AI agents explore runtime events. Logs include rich context such as severity, user, device, session, and the exact file and code location where issues occur, allowing Cursor to trace failures and suggest fixes based on the ground truth of your system.
 
 **Prerequisites:** A [Shipbook](https://shipbook.io) account with at least one app. [Get started here](https://docs.shipbook.io).
 
