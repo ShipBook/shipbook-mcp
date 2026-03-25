@@ -2,7 +2,7 @@
 
 Connect [Shipbook](https://shipbook.io) to [Cursor](https://cursor.com) to investigate issues using real application logs. Shipbook's Loglytics engine automatically classifies errors and provides structured insights, while powerful log search lets AI agents explore runtime events. Logs include rich context such as severity, user, device, session, and the exact file and code location where issues occur, allowing Cursor to trace failures and suggest fixes based on the ground truth of your system.
 
-**Prerequisites:** A [Shipbook](https://shipbook.io) account with at least one app. [Get started here](https://docs.shipbook.io).
+**Prerequisites:** A [Shipbook](https://shipbook.io) account with at least one app. [Get started here](https://www.shipbook.io/docs).
 
 ## Features
 
@@ -55,7 +55,7 @@ The plugin uses **OAuth 2.1** for secure authentication. On first use, you will 
 
 ## Documentation
 
-- [Shipbook MCP Documentation](https://docs.shipbook.io/mcp)
+- [Shipbook MCP Documentation](https://www.shipbook.io/docs/mcp)
 - [Shipbook Website](https://shipbook.io)
 
 ## License
