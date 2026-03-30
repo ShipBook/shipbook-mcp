@@ -9,13 +9,16 @@ You have access to Shipbook MCP tools for cloud log analysis.
 
 ## Available Tools
 
-1. **get-account-apps** — Lists all apps in the account (name, appId, platform). Call this first to get the appId needed by other tools.
+1. **get-account-apps** — Lists all apps in the account (name, appId, platform, key). Call this first to get the appId and key needed by other tools and for SDK initialization.
 
-2. **get-loglytics-errors** — Returns grouped/classified recurring errors for an app. Shows occurrence count, affected devices, sessions, app versions, and OS versions.
+2. **create-app** — Creates a new app in the account. Returns name, appId, and key. Platform is detected automatically on first SDK session.
+   - Required: `name`
+
+3. **get-loglytics-errors** — Returns grouped/classified recurring errors for an app. Shows occurrence count, affected devices, sessions, app versions, and OS versions.
    - Required: `appId`
    - Optional: `severity` (Error, Warning), `appVersion`
 
-3. **get-logs** — Searches and retrieves individual log entries.
+4. **get-logs** — Searches and retrieves individual log entries.
    - Required: `appId`
    - Severity: `severity` — Error, Warning, Info, Debug, Verbose
    - Text search: `msg` (free text in messages)
@@ -34,9 +37,10 @@ You have access to Shipbook MCP tools for cloud log analysis.
 1. **Start with get-account-apps** to identify the target app and get its `appId`
 2. **Use get-loglytics-errors** to see grouped errors — identifies the most frequent and impactful issues
 3. **Use get-logs with severity=Error** and relevant filters (udid, userId, email) to find specific error instances
-4. **Take the `session` ID from an error log** and call get-logs again WITHOUT a severity filter to see the full chronological context of that user session
-5. **Use `key` from loglytics errors** in get-logs to find all instances of a specific classified error
-6. **Use `minOrderId`/`maxOrderId`** to paginate within a session (get logs before/after a specific log entry)
+4. **Get context around a specific log**: call get-logs again with the same `session` ID, set `maxOrderId` to the log's orderId + 10, and remove the severity filter. This shows what happened leading up to that log.
+5. **Every log has `fileName` and `lineNumber`** — always use these to locate and read the actual code in the project. This is the best way to understand what the log means and find the root cause.
+6. **Use `key` from loglytics errors** in get-logs to find all instances of a specific classified error
+7. **Use `minOrderId`/`maxOrderId`** to paginate within a session (get logs before/after a specific log entry)
 
 ## Time Filters
 
