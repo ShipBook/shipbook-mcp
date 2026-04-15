@@ -3,10 +3,20 @@
   "name": "io.shipbook/mcp",
   "title": "Shipbook",
   "description": "Debug production issues using Shipbook logs and Loglytics error insights.",
-  "websiteUrl": "https://www.shipbook.io/",
+  "websiteUrl": "https://www.shipbook.io/docs/mcp",
   "version": "1.1.0",
-  "iconUrl": "https://www.shipbook.io/favicon.ico",
-  "documentationUrl": "https://docs.shipbook.io/mcp",
+  "icons": [
+    {
+      "src": "https://www.shipbook.io/favicon.png",
+      "mimeType": "image/png",
+      "sizes": ["48x48"]
+    },
+    {
+      "src": "https://raw.githubusercontent.com/ShipBook/shipbook-mcp/main/assets/logo.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
   "repository": {
     "url": "https://github.com/ShipBook/shipbook-mcp",
     "source": "github"
