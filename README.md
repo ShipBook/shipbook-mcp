@@ -25,6 +25,10 @@ Works with any MCP-compatible AI assistant:
 | **create-app** | Create a new app and get its credentials (name, appId, key) |
 | **get-loglytics-errors** | Retrieve grouped/classified errors with occurrence counts |
 | **get-logs** | Search logs with 20+ filters (severity, user, device, time, etc.) |
+| **get-alerts** | List the alerts that fired for an app, most recent first: custom log-filter alerts and automatic Loglytics alerts |
+| **get-alert** | Get one fired alert by its ID, e.g. the `id` from a Shipbook webhook payload |
+| **get-daily-stats** | Daily stats per version (sessions, users, devices, logs by severity) with crash-free, error-free and warning-free rates |
+| **get-releases** | Release health, newest first: adoption, crash-free sessions, and new and regressed issues per version, with deploy markers |
 
 ## AI Skills
 
