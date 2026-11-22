@@ -1,5 +1,7 @@
 # Shipbook MCP
 
+[![Listed on HookMCP](https://hookmcp.com/badge.svg)](https://hookmcp.com)
+
 Connect [Shipbook](https://shipbook.io) to any AI coding assistant to investigate issues using real application logs. Shipbook's Loglytics engine automatically classifies errors and provides structured insights, while powerful log search lets AI agents explore runtime events. Logs include rich context — severity, user, device, session, and the exact file and code location — giving your assistant the ground truth it needs to debug effectively.
 
 **Prerequisites:** A [Shipbook](https://shipbook.io) account. [Get started here](https://www.shipbook.io/docs).
