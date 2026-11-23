@@ -4,7 +4,7 @@
   "title": "Shipbook",
   "description": "Debug production issues using Shipbook logs and Loglytics error insights.",
   "websiteUrl": "https://www.shipbook.io/docs/mcp",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "icons": [
     {
       "src": "https://www.shipbook.io/favicon.png",
