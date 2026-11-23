@@ -9,6 +9,7 @@
   "homepage": "https://shipbook.io",
   "repository": "https://github.com/ShipBook/shipbook-mcp",
   "license": "MIT",
+  "privacyPolicyUrl": "https://www.shipbook.io/shipbook-privacy-policy",
   "keywords": [
     "shipbook",
     "logging",
