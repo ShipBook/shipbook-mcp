@@ -9,12 +9,16 @@
     {
       "src": "https://www.shipbook.io/favicon.png",
       "mimeType": "image/png",
-      "sizes": ["48x48"]
+      "sizes": [
+        "48x48"
+      ]
     },
     {
-      "src": "https://raw.githubusercontent.com/ShipBook/shipbook-mcp/main/assets/logo.svg",
-      "mimeType": "image/svg+xml",
-      "sizes": ["any"]
+      "src": "https://raw.githubusercontent.com/ShipBook/shipbook-mcp/main/assets/logo.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
     }
   ],
   "repository": {
