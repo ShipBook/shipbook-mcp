@@ -13,10 +13,22 @@
   "keywords": [
     "shipbook",
     "logging",
+    "remote-logging",
+    "log-management",
     "debugging",
     "error-tracking",
+    "crash-reporting",
+    "observability",
     "mcp",
-    "observability"
+    "ios",
+    "android",
+    "flutter",
+    "react-native",
+    "mobile",
+    "javascript",
+    "browser",
+    "nodejs",
+    "python"
   ],
   "mcpServers": {
     "shipbook": {
