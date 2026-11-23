@@ -1,13 +1,11 @@
 {
   "name": "shipbook",
-  "displayName": "Shipbook",
   "version": "1.1.0",
   "description": "Connect Shipbook to your AI coding assistant to investigate issues using real application logs. Shipbook's Loglytics engine automatically classifies errors and provides structured insights, while powerful log search lets AI agents explore runtime events. Includes skills for installing the SDK, auditing logs for PII, investigating errors, debugging sessions, and searching logs.",
   "author": {
     "name": "Shipbook",
     "email": "support@shipbook.io"
   },
-  "publisher": "Shipbook",
   "homepage": "https://shipbook.io",
   "repository": "https://github.com/ShipBook/shipbook-mcp",
   "license": "MIT",
@@ -31,6 +29,5 @@
     "browser",
     "nodejs",
     "python"
-  ],
-  "category": "developer-tools"
+  ]
 }

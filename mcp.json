@@ -1,9 +1,11 @@
 {
-  "shipbook": {
-    "type": "http",
-    "url": "https://api.shipbook.io/mcp",
-    "auth": {
-      "CLIENT_ID": "a1db8df5-ceb5-4013-8c35-af9e457c69b5"
+  "mcpServers": {
+    "shipbook": {
+      "type": "http",
+      "url": "https://api.shipbook.io/mcp",
+      "auth": {
+        "CLIENT_ID": "a1db8df5-ceb5-4013-8c35-af9e457c69b5"
+      }
     }
   }
 }
