@@ -80,9 +80,12 @@ On first use, Claude Code opens your browser to log in and authorize access.
 
 ### Claude.ai
 
-1. Go to [claude.ai](https://claude.ai) → **Settings** → **Connectors**
-2. Click **Add Connector** and enter: `https://api.shipbook.io/mcp`
-3. Click **Connect** — you'll be redirected to Shipbook to authorize access
+Shipbook is listed in Claude's connector directory. It works in Claude on the web, in Claude Desktop and on mobile.
+
+1. Open the [Shipbook connector](https://claude.ai/directory/connectors/shipbook), or in Claude go to **Settings** → **Connectors**, browse the directory and search for **Shipbook**
+2. Click **Connect** — you'll be redirected to Shipbook to authorize access
+
+On a Claude Team or Enterprise plan, an Owner may need to allow the connector first. You can also add it as a custom connector with `https://api.shipbook.io/mcp`.
 
 ### VS Code (Copilot)
 
